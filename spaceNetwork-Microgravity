@@ -1,51 +1,67 @@
-🛰️ Space-Based Internet
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
 
-Space-based internet uses satellite constellations in Low Earth Orbit (LEO) to deliver global connectivity.
+\geometry{margin=1in}
+\setlength{\parskip}{0.75em}
+\setlength{\parindent}{0pt}
 
-It aims to provide high-speed, low-latency internet access to remote and underserved areas.
+\begin{document}
 
-Operates without ground cables, relying on satellites that act as wireless routers in space.
+\begin{center}
+    {\LARGE \textbf{🛰️ Space-Based Internet, Space Networks, and Microgravity}} \\
+    \vspace{0.3cm}
+\end{center}
 
-Data transmission path: User antenna → Satellite → Satellite → Ground hub.
+\section*{🛰️ Space-Based Internet}
+
+Space-based internet uses satellite constellations in Low Earth Orbit (LEO) to deliver global connectivity. 
+
+It aims to provide high-speed, low-latency internet access to remote and underserved areas. 
+
+Operates without ground cables, relying on satellites that act as wireless routers in space. 
+
+\textbf{Data transmission path:} User antenna $\rightarrow$ Satellite $\rightarrow$ Satellite $\rightarrow$ Ground hub. 
 
 Signals travel in milliseconds through laser inter-satellite links (ISLs) and ground stations.
 
-Major projects:
+\subsection*{Major Projects}
+\begin{itemize}
+    \item Starlink (SpaceX)
+    \item OneWeb
+    \item Amazon’s Project Kuiper
+\end{itemize}
 
-Starlink (SpaceX)
+\subsection*{Benefits}
+\begin{itemize}
+    \item Provides coverage to rural, oceanic, and disaster-affected regions.
+    \item Enables education, healthcare, and communication in remote zones.
+    \item Reduces dependence on fiber-optic infrastructure.
+\end{itemize}
 
-OneWeb
+\subsection*{Challenges}
+\begin{itemize}
+    \item Orbital congestion and space debris risk.
+    \item High operational cost and maintenance.
+    \item Signal interference and regulatory issues.
+\end{itemize}
 
-Amazon’s Project Kuiper
+\textbf{Impact:} Aims to make global internet access universal, turning connectivity into a basic human right rather than a luxury.
 
-Benefits:
+\section*{🌐 Space Networks (TDRS \& LCRD)}
 
-Provides coverage to rural, oceanic, and disaster-affected regions.
-
-Enables education, healthcare, and communication in remote zones.
-
-Reduces dependence on fiber-optic infrastructure.
-
-Challenges:
-
-Orbital congestion and space debris risk.
-
-High operational cost and maintenance.
-
-Signal interference and regulatory issues.
-
-Impact: Aims to make global internet access universal, turning connectivity into a basic human right rather than a luxury.
-
-🌐 Space Networks (TDRS & LCRD)
-🔸 TDRS – Tracking and Data Relay Satellite System
-
+\subsection*{🔸 TDRS – Tracking and Data Relay Satellite System}
 Developed and operated by NASA.
 
 A network of geostationary satellites providing real-time communication between spacecraft and Earth.
 
 Ensures continuous coverage for spacecraft like the ISS, Hubble Space Telescope, and other low-orbit missions.
 
-Works by relaying data: Spacecraft → TDRS satellite → Ground terminal.
+\textbf{Data relay path:} Spacecraft $\rightarrow$ TDRS satellite $\rightarrow$ Ground terminal.
 
 Eliminates the need for spacecraft to wait for direct line-of-sight passes.
 
@@ -53,13 +69,12 @@ Handles telemetry, tracking, command, and data transmission.
 
 Positioned about 35,786 km above Earth in geostationary orbit (GEO).
 
-🔸 LCRD – Laser Communications Relay Demonstration
-
+\subsection*{🔸 LCRD – Laser Communications Relay Demonstration}
 A NASA mission testing laser (optical) communication in space.
 
 Uses laser light instead of radio waves to transmit data.
 
-Offers up to 100× faster data rates compared to traditional RF systems.
+Offers up to 100$\times$ faster data rates compared to traditional RF systems.
 
 Provides smaller antennas, lower interference, and higher security.
 
@@ -69,50 +84,49 @@ Helps prepare for deep-space communication systems using optical links.
 
 Combined with TDRS, LCRD represents the evolution toward a high-speed space communication network.
 
-🌌 Artificial Gravity & Microgravity
-🔸 Microgravity Effects
+\section*{🌌 Artificial Gravity \& Microgravity}
 
+\subsection*{🔸 Microgravity Effects}
 In space, astronauts experience microgravity (near weightlessness).
 
 Long exposure causes:
-
-Muscle atrophy (loss of strength).
-
-Bone density reduction.
-
-Cardiovascular weakening.
-
-Fluid redistribution affecting vision and balance.
-
-Disorientation and sleep difficulties.
+\begin{itemize}
+    \item Muscle atrophy (loss of strength)
+    \item Bone density reduction
+    \item Cardiovascular weakening
+    \item Fluid redistribution affecting vision and balance
+    \item Disorientation and sleep difficulties
+\end{itemize}
 
 These effects pose serious risks for long-duration missions (e.g., Mars).
 
-🔸 Artificial Gravity Concept
+\subsection*{🔸 Artificial Gravity Concept}
 
 Artificial gravity is produced by centrifugal force from rotation — not real gravity, but an equivalent effect.
 
-Formula: "a = ω² × r"
+\[
+a = \omega^2 \times r
+\]
 
-a = artificial gravity
-
-ω = angular velocity (rotation speed)
-
-r = radius of rotation
+\textbf{Where:}
+\begin{align*}
+a & = \text{artificial gravity} \\
+\omega & = \text{angular velocity (rotation speed)} \\
+r & = \text{radius of rotation}
+\end{align*}
 
 Increasing radius allows slower, more comfortable rotation.
 
 Too-fast rotation causes Coriolis effects (dizziness or nausea).
 
-🔸 Design Methods
+\subsection*{🔸 Design Methods}
+\begin{itemize}
+    \item \textbf{Rotating spacecraft:} The entire spacecraft spins slowly.
+    \item \textbf{Centrifugal habitats:} Only a ring or section spins to generate gravity.
+    \item \textbf{Tethered systems:} Two modules connected by a cable rotate around a center of mass.
+\end{itemize}
 
-Rotating spacecraft: The entire spacecraft spins slowly.
-
-Centrifugal habitats: Only a ring or section spins to generate gravity.
-
-Tethered systems: Two modules connected by a cable rotate around a center of mass.
-
-🔸 Research & Development
+\subsection*{🔸 Research \& Development}
 
 NASA, ESA, and JAXA are experimenting with small centrifuges to simulate artificial gravity.
 
@@ -122,20 +136,19 @@ Stanford Torus and O’Neill Cylinder are classic theoretical models for rotatin
 
 The Lunar Gateway and future Mars missions may integrate artificial gravity modules.
 
-🔸 Challenges
+\subsection*{🔸 Challenges}
+\begin{itemize}
+    \item Structural stress from constant rotation.
+    \item High energy demand for spin-up and stabilization.
+    \item Maintaining balance and orientation control.
+    \item Human adaptation to partial or rotating gravity.
+\end{itemize}
 
-Structural stress from constant rotation.
-
-High energy demand for spin-up and stabilization.
-
-Maintaining balance and orientation control.
-
-Human adaptation to partial or rotating gravity.
-
-🔸 Future Outlook
-
+\subsection*{🔸 Future Outlook}
 Artificial gravity is essential for long-term human survival in space.
 
 It enables healthier, more sustainable missions to Mars and beyond.
 
 It represents a major step toward building livable habitats beyond Earth.
+
+\end{document}
